@@ -2,7 +2,7 @@
     "name": "Webunion/Log",
     "description": "Simple Log Class and error handler",
 	"type": "library",
-    "keywords": ["log", "error handler"]
+    "keywords": ["log", "error handler"],
     "license": "BSD Style",
     "authors": [
         {
