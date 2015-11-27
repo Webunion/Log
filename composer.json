@@ -1,0 +1,21 @@
+{
+    "name": "Webunion/Log",
+    "description": "Simple Log Class and error handler",
+    "keywords": ["log", "error handler"]
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Fontanelli",
+            "email": "ricardo.fontanelli2@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.9"
+    },
+	"autoload": {
+        "psr-4": {
+            "Webunion\\Log\\": "src/
+        }
+    },
+    "minimum-stability": "dev"
+}
