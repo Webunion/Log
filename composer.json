@@ -1,5 +1,5 @@
 {
-    "name": "Webunion/Log",
+    "name": "webunion/log",
     "description": "Simple Log Class and error handler",
 	"type": "library",
     "keywords": ["log", "error handler"],
