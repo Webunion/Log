@@ -1,6 +1,7 @@
-<?php
-namespace Webunion\Log;
-Class Log{
+<?php namespace Webunion\Log;
+
+class Log
+{
 	public $path = '';
 	public $fileName = 'log.log';
 
