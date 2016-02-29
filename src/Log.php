@@ -36,7 +36,7 @@ class Log
 		$err .= '<errorMsg>' . $errmsg . '</errorMsg>';
 		$err .= '<scriptName>' . $filename . '</scriptName>';
 		$err .= '<scriptLineNum>' . $linenum . '</scriptLineNum>';
-		$err .= '<uri>'.$_SERVER['REQUEST_URI'].'</uri>';
+		$err .= '<uri>'.( php_sapi_name() === 'cli') ? __FILE__ : $_SERVER['REQUEST_URI'].'</uri>';
 		$err .= '<param>';
 		$array = array_merge($_GET, $_POST);
 			if(count($array) > 1){
