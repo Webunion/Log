@@ -3,7 +3,7 @@
     "description": "Simple Log Class and error handler",
 	"type": "library",
     "keywords": ["log", "error handler"],
-    "license": "BSD Style",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ricardo Fontanelli",
